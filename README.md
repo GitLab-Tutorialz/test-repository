@@ -40,3 +40,12 @@ Now you can proceed:
 
 OBS: for good practices, NEVER change the history on the master, always use `git revert` command, it's don't change the history.
 
+### Other Git commands
+
+```bash
+# git reset - used to separeted branches
+# git revert - used to on the master
+# git push origin master --force - used to force the push
+# git commit --amend - used to change the last commit message (do this before to push to remote repository)
+# git cherry-pick 011b2e306e2edf968820a44b38a5d52d9772c0a - used to get the commit message from another branch
+```
