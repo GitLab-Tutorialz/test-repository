@@ -27,7 +27,7 @@ Author: Amaury Borges Souza <amaurybsouza@gmail.com>
 
 ### How to revert a commit done on the master
 
-- First of all, you need check a `git log` command to check the commit:
+- First of all, you need check a `git log` command to check the log of commits
 
 ```bash
 # git log
@@ -37,3 +37,6 @@ Now you can proceed:
 ```bash
 # git revert 011b2e306e2edf968820a44b38a5d52d9772c0a
 ```
+
+OBS: for good practices, NEVER change the history on the master, always use `git revert` command, it's don't change the history.
+
