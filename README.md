@@ -24,3 +24,16 @@ Author: Amaury Borges Souza <amaurybsouza@gmail.com>
 
     Initial commit
 ```
+
+### How to revert a commit done on the master
+
+- First of all, you need check a `git log` command to check the commit:
+
+```bash
+# git log
+```
+Now you can proceed:
+
+```bash
+# git revert 011b2e306e2edf968820a44b38a5d52d9772c0a
+```
